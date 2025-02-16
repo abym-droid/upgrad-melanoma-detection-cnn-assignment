@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Melanoma detection CNN Model
+> This is an effort to analyze images from "ISIC - The International Skin Imaging Collaboration" and create a custom CNN model with a step by step approach for detection of melanoma classes accurately
 
 
 ## Table of Contents
@@ -11,38 +11,36 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
+- __Business Problem__: To build a custom CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution which can evaluate images and alert the dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
+- This is an assignment which requires me to build a custom CNN model using training data from "ISIC - The International Skin Imaging Collaboration" which has multiple images belonging to 9 different skin diseases including Melanoma
+- The custom CNN model need to be built and trained using the images with observation for trends of overfitting, addressing the same and incorporating data augmentation and class imbalance issues.
+  
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Findings after first model: The model overfit with significant difference between training and validation accuracy. The model would require some regularization and augmentation to close the gap and optimize.
+- Findings after first model: The model train and validation accuracy gap is closer, thus justifying augmentation and regularization techniques. However the training accuracy was quite low which would signify some class imbalance issues
+- Final Model Analaysis: The model has addressed overfitting issues as the training and validation scores are pretty close to each other. Thus the dropout and batch normalization strategies worked well. The accuracy of the model has increased more than that of the previous models, so the data augmenation has also worked well. The accuracy can potentially increase more if we add more augmented samples and do few more image transformations. For melanoma detection we may also need to focus on recall scores instead of focusing on just accuracy
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Tensorflow - version 2.18.0
+- Tensorflow Keras - version 3.8.0
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by the CNN module from Upgrad - IIITB Post Graduate program coursework
+- It used a starter notebook provided by Upgrad as base for instructions and guidance
+  
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@abym-droid] - feel free to contact me!
 
 
 <!-- Optional -->
