@@ -18,9 +18,9 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Findings after first model: The model overfit with significant difference between training and validation accuracy. The model would require some regularization and augmentation to close the gap and optimize.
-- Findings after first model: The model train and validation accuracy gap is closer, thus justifying augmentation and regularization techniques. However the training accuracy was quite low which would signify some class imbalance issues
-- Final Model Analaysis: The model has addressed overfitting issues as the training and validation scores are pretty close to each other. Thus the dropout and batch normalization strategies worked well. The accuracy of the model has increased more than that of the previous models, so the data augmenation has also worked well. The accuracy can potentially increase more if we add more augmented samples and do few more image transformations. For melanoma detection we may also need to focus on recall scores instead of focusing on just accuracy
+- __Findings after first model__: The model overfit with significant difference between training and validation accuracy. The model would require some regularization and augmentation to close the gap and optimize.
+- __Findings after first model__: The model train and validation accuracy gap is closer, thus justifying augmentation and regularization techniques. However the training accuracy was quite low which would signify some class imbalance issues
+- __Final Model Analaysis__: The model has addressed overfitting issues as the training and validation scores are pretty close to each other. Thus the dropout and batch normalization strategies worked well. The accuracy of the model has increased more than that of the previous models, so the data augmenation has also worked well. The accuracy can potentially increase more if we add more augmented samples and do few more image transformations. For melanoma detection we may also need to focus on recall scores instead of focusing on just accuracy
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -33,7 +33,7 @@
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
+
 - This project was inspired by the CNN module from Upgrad - IIITB Post Graduate program coursework
 - It used a starter notebook provided by Upgrad as base for instructions and guidance
   
